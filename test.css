@@ -1,0 +1,90 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+}
+
+p {
+    margin: 0px;
+    font-size: 4rem;
+}
+
+.title1 {
+    margin: 0% 20%;
+    padding: 30% 0% 60% 0%;
+    text-align: center;
+    color: white;
+}
+
+.t1 {
+    font-family: 'Castoro Titling', cursive;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.t2 {
+    font-family: 'Shippori Mincho B1', serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.title2 {
+    margin: 0% 20%;
+    padding: 50% 0% 60% 0%;
+    text-align: center;
+    color: white;
+}
+
+
+.pic1 {
+    background-image: url(AdobeStock_465679928.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+.pic2 {
+    background-image: url(AdobeStock_407901338.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pic3 {
+    background-image: url(AdobeStock_415870945.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pic4 {
+    background-image: url(AdobeStock_314095447.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.pic5 {
+    background-image: url(AdobeStock_322701297.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.picture1_announce {
+    display: none;
+}
+
+.announce {
+    visibility: hidden;
+    height: 0;
+}
+
+.picture1_announce:checked+.announce {
+    visibility: visible;
+    height: auto;
+}
